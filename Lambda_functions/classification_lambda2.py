@@ -1,10 +1,11 @@
 import json
 import base64
+import os
 #from sagemaker.serializers import IdentitySerializer
 #from sagemaker.predictor import Predictor
 
-# Fill this in with the name of your deployed model
-ENDPOINT = 'image-classification-2022-11-18-20-38-29-687'
+#name of deployed model
+ENDPOINT = os.environ['ENDPOINT_NAME']
 
 import boto3
 
