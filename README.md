@@ -1,6 +1,6 @@
 # Construction of a Machine_Learning_Workflow_AWS pipeline using AWS Lambda and step Functions
 
-workflow automates the whole process of preprocessing data making prediction using an API and returns results in S3 Bucket
+workflow automates the whole process of preprocessing, prediction using an API and returns results in S3 Bucket
 
 ## WorkFlow compentents:
  
